@@ -1,0 +1,249 @@
+.template-width{
+    max-width: 1400px;
+    width: 100%;
+    padding-right: 100px;
+    padding-left: 100px;
+   
+}
+.response{
+    overflow: visible !important;
+    height: 100% !important;
+}
+header{
+    nav{
+        position: fixed;
+        .ul-container-resp{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            height: 0;
+            overflow: hidden;
+            
+            .li-container{
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                a{
+                    color: black;
+                    &:hover{
+                        color: darkblue;
+                    }
+                }
+                .li-ul-container{
+                    position: relative;
+                    &:hover{
+                        .ul-li-hover-container{
+                            overflow: visible !important;
+                            height: 100% !important;
+                        }
+                    }
+                    .ul-li-hover-container{
+                        // background-color: white;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+                        height: 0;
+                        overflow: hidden;
+                        position: absolute;
+                        margin-top: 5px;
+                        margin-right: 20px;
+                        font-size: 20px;
+                        border-bottom-left-radius: 10px;
+                        border-bottom-right-radius: 10px;
+                        &:hover{
+                        .ul-li-hover-container{
+                            overflow: visible !important;
+                            height: 100% !important;
+                        }
+                    }
+                    
+                    }
+
+                }
+
+                
+            }
+            
+        }
+        #menyu{
+            font-size: 20px;
+            display: none;
+        }
+        
+        .nav-item-container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            .ul-container{
+                display: flex;
+                align-items: center;
+                gap: 15px;
+                .li-container{
+                    display: flex;
+                    gap: 15px;
+                    a{
+                        color: black;
+                        &:hover{
+                            color: darkblue;
+                        }
+                    }
+                    .li-ul-container{
+                        position: relative;
+                        &:hover{
+                            .ul-li-hover-container{
+                                overflow: visible !important;
+                                height: 100% !important;
+                            }
+                        }
+                        .ul-li-hover-container{
+                            // background-color: white;
+                            display: flex;
+                            flex-direction: column;
+                            gap: 10px;
+                            height: 0;
+                            overflow: hidden;
+                            position: absolute;
+                            margin-top: 5px;
+                            font-size: 20px;
+                            border-bottom-left-radius: 10px;
+                            border-bottom-right-radius: 10px;
+                            // &:hover{
+                            // .ul-li-hover-container{
+                            //     overflow: visible !important;
+                            //     height: 100% !important;
+                            // }
+                        }
+                        
+                        }
+    
+                    }
+    
+                    
+                }
+                
+            }
+            
+        }
+       
+    }
+
+@media only screen and (max-width: 768px) {
+    header{
+        nav{
+            #menyu{
+                font-size: 20px;
+                display: block;
+            }
+            .ul-container-resp{
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                height: 0;
+                overflow: hidden;
+                
+                .li-container{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+                    a{
+                        color: black;
+                        &:hover{
+                            color: darkblue;
+                        }
+                    }
+                    .li-ul-container{
+                        position: relative;
+                        &:hover{
+                            .ul-li-hover-container{
+                                overflow: visible !important;
+                                height: 100% !important;
+                            }
+                        }
+                        .ul-li-hover-container{
+                            // background-color: white;
+                            display: flex;
+                            flex-direction: column;
+                            gap: 10px;
+                            height: 0;
+                            overflow: hidden;
+                            position: absolute;
+                            margin-top: 5px;
+                            margin-right: 20px;
+                            font-size: 20px;
+                            border-bottom-left-radius: 10px;
+                            border-bottom-right-radius: 10px;
+                            &:hover{
+                            .ul-li-hover-container{
+                                overflow: visible !important;
+                                height: 100% !important;
+                            }
+                        }
+                        
+                        }
+    
+                    }
+    
+                    
+                }
+                
+            }
+            #menyu{
+                font-size: 20px;
+                display: block;
+            }
+            .nav-item-container{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                .ul-container{
+                    display: flex;
+                    align-items: center;
+                    gap: 15px;
+                    display: none;
+                    .li-container{
+                        display: flex;
+                        gap: 15px;
+                        a{
+                            color: black;
+                        }
+                        .li-ul-container{
+                            position: relative;
+                            &:hover{
+                                .ul-li-hover-container{
+                                    overflow: visible ;
+                                    height: 100% ;
+                                }
+                            }
+                            .ul-li-hover-container{
+                                // background-color: white;
+                                display: flex;
+                                flex-direction: column;
+                                gap: 10px;
+                                height: 0;
+                                overflow: hidden;
+                                position: absolute;
+                                margin-top: 10px;
+                                font-size: 20px;
+                                border-bottom-left-radius: 10px;
+                                border-bottom-right-radius: 10px;
+                            
+                            }
+        
+                        }
+        
+                        
+                    }
+                    
+                }
+                
+            }
+           
+        }
+    }
+   
+  }
+    

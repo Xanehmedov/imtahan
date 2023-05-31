@@ -1,0 +1,308 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.template-width {
+  max-width: 1400px;
+  width: 100%;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.response {
+  overflow: visible !important;
+  height: 100% !important;
+}
+
+header nav {
+  position: fixed;
+}
+header nav .ul-container-resp {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  height: 0;
+  overflow: hidden;
+}
+header nav .ul-container-resp .li-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+header nav .ul-container-resp .li-container a {
+  color: black;
+}
+header nav .ul-container-resp .li-container a:hover {
+  color: darkblue;
+}
+header nav .ul-container-resp .li-container .li-ul-container {
+  position: relative;
+}
+header nav .ul-container-resp .li-container .li-ul-container:hover .ul-li-hover-container {
+  overflow: visible !important;
+  height: 100% !important;
+}
+header nav .ul-container-resp .li-container .li-ul-container .ul-li-hover-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 0;
+  overflow: hidden;
+  position: absolute;
+  margin-top: 5px;
+  margin-right: 20px;
+  font-size: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+header nav .ul-container-resp .li-container .li-ul-container .ul-li-hover-container:hover .ul-li-hover-container {
+  overflow: visible !important;
+  height: 100% !important;
+}
+header nav #menyu {
+  font-size: 20px;
+  display: none;
+}
+header nav .nav-item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+header nav .nav-item-container .ul-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+header nav .nav-item-container .ul-container .li-container {
+  display: flex;
+  gap: 15px;
+}
+header nav .nav-item-container .ul-container .li-container a {
+  color: black;
+}
+header nav .nav-item-container .ul-container .li-container a:hover {
+  color: darkblue;
+}
+header nav .nav-item-container .ul-container .li-container .li-ul-container {
+  position: relative;
+}
+header nav .nav-item-container .ul-container .li-container .li-ul-container:hover .ul-li-hover-container {
+  overflow: visible !important;
+  height: 100% !important;
+}
+header nav .nav-item-container .ul-container .li-container .li-ul-container .ul-li-hover-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 0;
+  overflow: hidden;
+  position: absolute;
+  margin-top: 5px;
+  font-size: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  header nav #menyu {
+    font-size: 20px;
+    display: block;
+  }
+  header nav .ul-container-resp {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    height: 0;
+    overflow: hidden;
+  }
+  header nav .ul-container-resp .li-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  header nav .ul-container-resp .li-container a {
+    color: black;
+  }
+  header nav .ul-container-resp .li-container a:hover {
+    color: darkblue;
+  }
+  header nav .ul-container-resp .li-container .li-ul-container {
+    position: relative;
+  }
+  header nav .ul-container-resp .li-container .li-ul-container:hover .ul-li-hover-container {
+    overflow: visible !important;
+    height: 100% !important;
+  }
+  header nav .ul-container-resp .li-container .li-ul-container .ul-li-hover-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 0;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 5px;
+    margin-right: 20px;
+    font-size: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  header nav .ul-container-resp .li-container .li-ul-container .ul-li-hover-container:hover .ul-li-hover-container {
+    overflow: visible !important;
+    height: 100% !important;
+  }
+  header nav #menyu {
+    font-size: 20px;
+    display: block;
+  }
+  header nav .nav-item-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  header nav .nav-item-container .ul-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    display: none;
+  }
+  header nav .nav-item-container .ul-container .li-container {
+    display: flex;
+    gap: 15px;
+  }
+  header nav .nav-item-container .ul-container .li-container a {
+    color: black;
+  }
+  header nav .nav-item-container .ul-container .li-container .li-ul-container {
+    position: relative;
+  }
+  header nav .nav-item-container .ul-container .li-container .li-ul-container:hover .ul-li-hover-container {
+    overflow: visible;
+    height: 100%;
+  }
+  header nav .nav-item-container .ul-container .li-container .li-ul-container .ul-li-hover-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 0;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 10px;
+    font-size: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+}
+main #discount {
+  height: 100vh;
+  background-color: aqua;
+  background-image: url("https://placehold.co/600x400");
+  display: flex;
+  align-items: center;
+}
+main #discount .discount-tonner {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+main #discount .discount-tonner h1 {
+  font-size: 35px;
+  width: 50%;
+}
+main #discount .discount-tonner .sekil-container {
+  display: flex;
+  justify-content: space-between;
+}
+main #discount .discount-tonner .sekil-container .comments-container {
+  display: flex;
+  gap: 20px;
+}
+main #discount .discount-tonner .sekil-container .comments-container p {
+  font-size: 20px;
+}
+main #discount .discount-tonner .sekil-container .mark-container {
+  display: flex;
+  gap: 15px;
+}
+main #latest-news {
+  height: 30vh;
+  display: flex;
+  align-items: center;
+}
+main #latest-news .latest-news-container {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+main #latest-news .latest-news-container p {
+  width: 50%;
+}
+main #card-section .card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  gap: 10px;
+}
+main #card-section .card-container .card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+main #card-section .card-container .card .card-header .kart-basliq {
+  width: 80%;
+  height: 200px;
+}
+main #dec {
+  background-color: red;
+  border: 1px solid 224;
+}
+main #dec .kart-container {
+  display: flex;
+  gap: 10px;
+}
+main #dec .kart-container .kart-20deg-container {
+  display: flex;
+  justify-content: center;
+}
+main #dec .kart-container .kart-20deg-container .img {
+  width: 40%;
+  background-color: aqua;
+}
+main #dec .kart-container .icons-container {
+  display: flex;
+  justify-content: space-between;
+}
+main #dec .kart-container .icons-container .icon {
+  display: flex;
+  gap: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  main #card-section .card-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  main #card-section .card-container .card {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  main #card-section .card-container .card .card-header .kart-basliq {
+    width: 80%;
+    height: 200px;
+  }
+}/*# sourceMappingURL=main.css.map */

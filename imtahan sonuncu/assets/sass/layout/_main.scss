@@ -1,0 +1,131 @@
+main{
+    #discount{
+        height: 100vh;
+        background-color: aqua;
+        background-image: url("https://placehold.co/600x400");
+        display: flex;
+        align-items: center;
+        .discount-tonner{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            h1{
+                font-size: 35px;
+                width: 50%;
+            }
+            .sekil-container{
+                display: flex;
+                justify-content: space-between;
+                .comments-container{
+
+                    display: flex;
+                    gap: 20px;
+                    p{
+                        font-size: 20px;
+                    }
+                }
+                .mark-container{
+                    display: flex;
+                    gap: 15px;
+                }
+            }
+
+        }
+    }
+    #latest-news{
+        height: 30vh;
+        display: flex;
+        align-items: center;
+        .latest-news-container {
+            display: flex;
+            gap: 20px;
+            flex-direction: column;
+            align-items: center;
+            p{
+                width: 50%;
+            }
+        }
+    }
+    #card-section{
+        .card-container{
+            
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 100px;
+            padding-bottom: 100px;
+            gap: 10px;
+            .card{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+                .card-header{
+                  .kart-basliq{
+                    width: 80%;
+                    height: 200px;
+                  }
+                    
+
+                }
+            }
+        }
+    }
+    #dec{
+        background-color: red;
+        border:1px solid red($color: #e0b6b6);
+        .kart-container{
+            display: flex;
+            gap: 10px;
+            .kart-20deg-container{
+                display: flex;
+                justify-content: center;
+                .img{
+                    width: 40%;
+                    background-color: aqua;
+                 
+                }
+            }
+            .icons-container{
+                display: flex;
+                justify-content: space-between;
+                .icon{
+                    display: flex;
+                    gap: 15px;
+                }
+            }
+
+            
+        }
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+  
+   main{
+    #card-section{
+        .card-container{
+            display: grid;
+            grid-template-columns: auto auto;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 100px;
+            padding-bottom: 100px;
+            .card{
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+
+                .card-header{
+                  .kart-basliq{
+                    width: 80%;
+                    height: 200px;
+                  }
+
+                }
+            }
+        }
+    }
+   }
+}
